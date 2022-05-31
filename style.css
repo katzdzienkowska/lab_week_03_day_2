@@ -123,6 +123,7 @@ input {
   width: 150px;
   height: 170%;
   padding-left: 10px;
+  border: 1px solid #040E27;
   border-radius: 5px;
   color: grey;
   /* Select elements are not imput elements! Therefore we've given the <select> element it's own class  */
@@ -162,7 +163,7 @@ input {
 }
 
 .row {
-  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-columns: 30% 30% 30%;
   /* The row of the grid has 3 columns which should be the same width and roughly a third of the available space */
   /* Use the grid-template-columns property to set each column to 30% */
   /* You can experiment with different units for the width values */
@@ -177,7 +178,7 @@ input {
 }
 
 .single-destination {
-  margin: 5px;
+  margin: 10px;
   overflow: hidden;
   /* Use the margin property to make some space between the destinations */
   /* Set the overflow to 'hidden' */
